@@ -1,0 +1,38 @@
+<div id="ricerca">
+ <p class="content-title content-left">Ricerca stazioni per citt&agrave;</p>
+
+<!--
+ <button onclick='fast()'>ROMA-PRENESTE  </button>
+-->
+
+ <div class ="content-section">
+
+    <div id="seleziona-regione2" >
+
+	    <select id="menu_reg2" onchange="changingSelect2()">
+        <option value="" disabled selected>Seleziona una citt&agrave;</option>
+	    </select>
+
+    </div>
+
+    <div id="seleziona-regione3">
+      <select id="menu_reg3" onchange="changingSelect3()">
+        <option value="" disabled selected>Seleziona una centrale</option>
+	    </select>
+    </div>
+    <div id="data1">
+      <input id="data" type="text" onchange="dateChange()" readonly="readonly" placeholder="Seleziona una data">
+    </div>
+
+    <div id="searchResult">
+      <div id='tab-div'></div>
+      <div id="chart-div">
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+</div>
